@@ -2,7 +2,7 @@ import requests
 import json
 import csv
 
-API_KEY = "YOUR_NEWSAPI_KEY"
+API_KEY = "a7218b11a7ce457797b8c3d6406925c2"
 URL = "https://newsapi.org/v2/top-headlines?country=in&apiKey=" + API_KEY
 
 def fetch_news():
